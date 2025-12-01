@@ -25,7 +25,7 @@ const Navbar = () => {
             href="#"
             className="hover:text-cyan-300 underline transition"
           >
-            Projects
+            Work
           </Link>
           <Link to="/AboutMe" className="hover:text-cyan-300 transition">
             About Me

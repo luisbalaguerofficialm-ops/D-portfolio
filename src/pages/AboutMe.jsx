@@ -238,24 +238,27 @@ const AboutMe = () => {
             {/* Skill Tags */}
             <div className="flex flex-wrap gap-3 cyber" ref={cyberRef}>
               <p className="rounded-lg border h-9 w-[120px] font-medium px-4 py-1 text-[#ffffff] linux">
-                Kali Linux
+                HTML
               </p>
               <p className="rounded-lg border h-9 w-[120px] font-medium px-8 py-1 text-[#ffffff] burpsuite">
-                burpsuite
+                CSS
               </p>
               <p className="rounded-lg border h-9 w-[120px] font-medium px-8 py-1 text-[#ffffff] metasploit">
-                Metasploit
+                Javascript
+              </p>
+              <p className="rounded-lg border h-9 w-[120px] font-medium px-3 py-1 text-[#ffffff] wireshark">
+                Jquery
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <p className="rounded-lg border h-9 w-[120px] font-medium px-3 py-1 text-[#ffffff] wireshark">
-                Wireshark
-              </p>
               <p className="rounded-lg border h-9 w-[120px] font-medium px-4 py-1 text-[#ffffff] firewalls">
-                Firewalls
+                Accessibility
               </p>
-              <p className="rounded-lg border h-9 w-[140px] font-medium px-2 py-1 text-[#ffffff] nessus">
-                Nessus
+              <p className="rounded-lg border h-9 w-[140px] font-medium px-7 py-1 text-[#ffffff] nessus">
+                Figma
+              </p>
+              <p className="rounded-lg border h-9 w-[140px] font-medium px-4 py-1 text-[#ffffff] figma">
+                Tailwind Css
               </p>
             </div>
           </div>
@@ -305,7 +308,7 @@ const AboutMe = () => {
             </p>
 
             {/* Skill Tags */}
-            <div className="flex flex-wrap gap-3 stay">
+            {/* <div className="flex flex-wrap gap-3 stay">
               <p className="rounded-lg border h-9 w-[120px] font-medium px-8 py-1 text-white  HTML">
                 HTML
               </p>
@@ -318,8 +321,8 @@ const AboutMe = () => {
               <p className="rounded-lg border h-9 w-[120px] font-medium px-8 py-1 text-white Jquery">
                 Jquery
               </p>
-            </div>
-            <div className="flex flex-wrap gap-3">
+            </div> */}
+            {/* <div className="flex flex-wrap gap-3">
               <p className="rounded-lg border h-9 w-[120px] font-medium px-3 py-1 text-white Access">
                 Accessibility
               </p>
@@ -329,7 +332,7 @@ const AboutMe = () => {
               <p className="rounded-lg border h-9 w-[140px] font-medium px-2 py-1 text-white   Figma">
                 Tailwind CSS
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

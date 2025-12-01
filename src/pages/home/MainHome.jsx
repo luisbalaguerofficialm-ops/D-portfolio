@@ -202,59 +202,58 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="w-full bg-black text-white py-20 px-6 md:px-16">
-      {/* Tech Stack */}
-      <div className="items-center justify-center flex-col flex download">
-        <div className="mt-20 flex sm:grid sm:grid-cols-4 flex-wrap gap-4 text-[10px] font-extrabold text-gray-600 dark:text-gray-300">
-          {/* HTML */}
-          <div className="flex items-center mb-2 flex-cols html">
+    <div className="w-full bg-black text-white py-2 px-6 md:px-16">
+      {/* <div className="items-center justify-center flex-col flex download">
+        <div className="mt-20 flex sm:grid sm:grid-cols-4 flex-wrap gap-4 text-[10px] font-extrabold text-gray-600 dark:text-gray-300"> */}
+      {/* HTML */}
+      {/* <div className="flex items-center mb-2 flex-cols html">
             <span className="px-2 py-1 rounded flex gap-1">
               <img src={html} alt="HTML" className="md:w-30 w-27 h-15" />
               <p className="font-semibold text-2xl">HTML</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* CSS */}
-          <div className="flex items-center mb-2 flex-cols css">
+      {/* CSS */}
+      {/* <div className="flex items-center mb-2 flex-cols css">
             <span className="px-2 py-1 rounded flex gap-1">
               <img src={css} alt="CSS" className="md:w-35 w-32 h-14" />
               <p className="font-semibold text-2xl">CSS</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* React */}
-          <div className="flex items-center flex-cols react">
+      {/* React */}
+      {/* <div className="flex items-center flex-cols react">
             <span className="px-2 py-1 rounded flex">
               <img src={react} alt="React" className="w-53 h-15" />
             </span>
-          </div>
+          </div> */}
 
-          {/* JavaScript */}
-          <div className="flex items-center mb-2 flex-cols java">
+      {/* JavaScript */}
+      {/* <div className="flex items-center mb-2 flex-cols java">
             <span className="px-2 py-1 rounded flex gap-1 mb-1">
               <img src={java} alt="JavaScript" className="w-35 h-15" />
               <p className="font-semibold text-2xl">JavaScript</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* Node.js */}
-          <div className="flex items-center mb-2 flex-cols node">
+      {/* Node.js */}
+      {/* <div className="flex items-center mb-2 flex-cols node">
             <span className="px-2 py-1 rounded flex gap-1 ml-0.5">
               <img src={node} alt="Node.js" className="md:w-53 w-30 h-15" />
               <p className="font-semibold text-2xl">NODE.JS</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* Python */}
-          <div className="flex items-center mb-2 flex-cols python">
+      {/* Python */}
+      {/* <div className="flex items-center mb-2 flex-cols python">
             <span className="px-2 py-1 rounded flex gap-1">
               <img src={python} alt="Python" className="w-37 h-15" />
               <p className="font-semibold text-2xl">Python</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* Express */}
-          <div className="flex items-center mb-2 flex-cols express">
+      {/* Express */}
+      {/* <div className="flex items-center mb-2 flex-cols express">
             <span className="px-2 py-1 rounded flex gap-1 ml-2">
               <img
                 src={express}
@@ -263,25 +262,25 @@ const HeroSection = () => {
               />
               <p className="font-semibold text-2xl">EXPRESS</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* Nodemon */}
-          <div className="flex items-center flex-cols nodemon">
+      {/* Nodemon */}
+      {/* <div className="flex items-center flex-cols nodemon">
             <span className="px-2 py-1 rounded flex gap-1 ml-1">
               <img src={nodemon} alt="Nodemon" className="md:w-35 w-30 h-15" />
               <p className="font-semibold text-2xl">NODEMON</p>
             </span>
-          </div>
+          </div> */}
 
-          {/* TypeScript */}
-          <div className="flex items-center flex-cols typeScript">
+      {/* TypeScript */}
+      {/* <div className="flex items-center flex-cols typeScript">
             <span className="px-2 py-1 rounded flex gap-1 ml-1">
               <img src={TypeScript} alt="TypeScript" className="w-35 h-15" />
               <p className="font-semibold text-2xl">TYPESCRIPT</p>
             </span>
-          </div>
-        </div>
-      </div>
+          </div> */}
+      {/* </div>
+      </div> */}
 
       {/* Featured Projects */}
       <div className="max-w-6xl text-left mx-auto mt-30 mb-17">
@@ -437,7 +436,7 @@ const HeroSection = () => {
       </div>
 
       {/* ======================= */}
-      <div className="w-full  bg-gray-400 py-4 mt-20">
+      {/* <div className="w-full  bg-gray-400 py-4 mt-20">
         <div className="flex items-center  gap-20 justify-center overflow-x-auto md:overflow-visible px-4 md:px-0">
           <img src={postman} alt="" className="w-20 h-auto md:w-24 postman" />
           <img src={vercel} alt="" className="w-20 h-auto md:w-24 vercel" />
@@ -446,7 +445,7 @@ const HeroSection = () => {
           <img src={tailwind} alt="" className="w-20 h-auto md:w-24 tailwind" />
           <img src={render} alt="" className="w-20 h-auto md:w-24 render" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
