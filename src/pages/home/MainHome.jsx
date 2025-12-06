@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import ScrollReveal from "scrollreveal";
+// import ScrollReveal from "scrollreveal";
 import { ArrowUpRight, Github } from "lucide-react";
 
 // Tech Images
@@ -25,181 +25,181 @@ import realEstateImg from "../../assets/realEstateImg.png";
 import eCommerceImg from "../../assets/eCommerceImg .png";
 
 const HeroSection = () => {
-  useEffect(() => {
-    ScrollReveal().reveal(".download", {
-      duration: 2000,
-      origin: "top",
-      distance: "20px",
-      delay: 100,
-      reset: true,
-    });
-    ScrollReveal().reveal(".years", {
-      duration: 2000,
-      origin: "right",
-      distance: "300px",
-      delay: 100,
-      reset: true,
-    });
-    ScrollReveal().reveal(".express", {
-      duration: 2000,
-      origin: "left",
-      distance: "400px",
-      delay: 200,
-      reset: true,
-    });
-    ScrollReveal().reveal(".three", {
-      duration: 2000,
-      origin: "top",
-      distance: "400px",
-      delay: 250,
-      reset: true,
-    });
-    ScrollReveal().reveal(".typeScript", {
-      duration: 2000,
-      origin: "top",
-      distance: "400px",
-      delay: 250,
-      reset: true,
-    });
-    ScrollReveal().reveal(".linked", {
-      duration: 2000,
-      origin: "left",
-      distance: "300px",
-      delay: 250,
-      reset: true,
-    });
-    ScrollReveal().reveal(".git", {
-      duration: 2000,
-      origin: "left",
-      distance: "400px",
-      delay: 300,
-      reset: true,
-    });
-    ScrollReveal().reveal(".insta", {
-      duration: 2000,
-      origin: "left",
-      distance: "200px",
-      delay: 200,
-      reset: true,
-    });
-    ScrollReveal().reveal(".whats", {
-      duration: 2000,
-      origin: "left",
-      distance: "100px",
-      delay: 150,
-      reset: true,
-    });
+  // useEffect(() => {
+  //   ScrollReveal().reveal(".download", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "20px",
+  //     delay: 100,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".years", {
+  //     duration: 2000,
+  //     origin: "right",
+  //     distance: "300px",
+  //     delay: 100,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".express", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "400px",
+  //     delay: 200,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".three", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "400px",
+  //     delay: 250,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".typeScript", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "400px",
+  //     delay: 250,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".linked", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "300px",
+  //     delay: 250,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".git", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "400px",
+  //     delay: 300,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".insta", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "200px",
+  //     delay: 200,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".whats", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "100px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
 
-    ScrollReveal().reveal(".postman", {
-      duration: 5000,
-      origin: "bottom",
-      distance: "100px",
-      delay: 150,
-      reset: true,
-    });
+  //   ScrollReveal().reveal(".postman", {
+  //     duration: 5000,
+  //     origin: "bottom",
+  //     distance: "100px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
 
-    ScrollReveal().reveal(".java", {
-      duration: 2000,
-      origin: "left",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".react", {
-      duration: 2000,
-      origin: "right",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".css", {
-      duration: 2000,
-      origin: "top",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".html", {
-      duration: 2000,
-      origin: "top",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".figma", {
-      duration: 2000,
-      origin: "right",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".tailwind", {
-      duration: 2000,
-      origin: "top",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
+  //   ScrollReveal().reveal(".java", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".react", {
+  //     duration: 2000,
+  //     origin: "right",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".css", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".html", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".figma", {
+  //     duration: 2000,
+  //     origin: "right",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".tailwind", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
 
-    ScrollReveal().reveal(".node", {
-      duration: 2000,
-      origin: "top",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".eCommerce", {
-      duration: 2000,
-      origin: "bottom",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".real", {
-      duration: 5000,
-      origin: "rigth",
-      distance: "400px",
-      delay: 100,
-      reset: true,
-    });
-    ScrollReveal().reveal(".vite", {
-      duration: 2000,
-      origin: "left",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".vercel", {
-      duration: 2000,
-      origin: "right",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
-    ScrollReveal().reveal(".nodemon", {
-      duration: 2000,
-      origin: "bottom",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
+  //   ScrollReveal().reveal(".node", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".eCommerce", {
+  //     duration: 2000,
+  //     origin: "bottom",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".real", {
+  //     duration: 5000,
+  //     origin: "rigth",
+  //     distance: "400px",
+  //     delay: 100,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".vite", {
+  //     duration: 2000,
+  //     origin: "left",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".vercel", {
+  //     duration: 2000,
+  //     origin: "right",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
+  //   ScrollReveal().reveal(".nodemon", {
+  //     duration: 2000,
+  //     origin: "bottom",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
 
-    ScrollReveal().reveal(".render", {
-      duration: 2000,
-      origin: "bottom",
-      distance: "900px",
-      delay: 150,
-      reset: true,
-    });
+  //   ScrollReveal().reveal(".render", {
+  //     duration: 2000,
+  //     origin: "bottom",
+  //     distance: "900px",
+  //     delay: 150,
+  //     reset: true,
+  //   });
 
-    ScrollReveal().reveal(".country", {
-      duration: 2000,
-      origin: "top",
-      distance: "500px",
-      delay: 100,
-      reset: true,
-    });
-  }, []);
+  //   ScrollReveal().reveal(".country", {
+  //     duration: 2000,
+  //     origin: "top",
+  //     distance: "500px",
+  //     delay: 100,
+  //     reset: true,
+  //   });
+  // }, []);
 
   return (
     <div className="w-full bg-black text-white py-2 px-6 md:px-16">
@@ -302,7 +302,7 @@ const HeroSection = () => {
           <img
             src={allCountriesImg}
             alt="All Countries Project"
-            className="rounded-lg w-full country"
+            className="rounded-lg w-full "
           />
         </div>
         <div className="space-y-6 text-left">
@@ -349,7 +349,7 @@ const HeroSection = () => {
           <img
             src={realEstateImg}
             alt="Real Estate Project"
-            className="rounded-lg w-full real"
+            className="rounded-lg w-full "
           />
         </div>
         <div className="space-y-6 text-left">
@@ -396,7 +396,7 @@ const HeroSection = () => {
           <img
             src={eCommerceImg}
             alt="E-Commerce Project"
-            className="rounded-lg w-full eCommerce"
+            className="rounded-lg w-full"
           />
         </div>
         <div className="space-y-6 text-left">
@@ -434,6 +434,75 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <section className="w-full text-white py-24 px-6 md:px-16">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+          {/* Left Title */}
+          <div className="flex items-start">
+            <h2 className="text-5xl md:text-6xl text-[#ffffff] font-extrabold tracking-tight">
+              ABOUT ME
+            </h2>
+          </div>
+
+          {/* Right Content */}
+          <div className="space-y-6 max-w-xl text-left">
+            <h3 className="">
+              "Hello! I’m Daniel Chekwube, a passionate and dedicated Full Stack
+              Developer with a growing expertise in Cybersecurity.", "Based in
+              Lagos, Nigeria, I build secure and modern web solutions.",
+            </h3>
+
+            {/* <p className="text-green-600 leading-relaxed">
+              My journey into tech began with a love for solving problems,
+              building digital solutions, and understanding how systems work
+              behind the scenes. Over time, that curiosity evolved into a deep
+              commitment to creating applications that are functional, secure,
+              efficient, and beautifully designed.
+            </p> */}
+
+            <p className="">
+              I specialize in building modern web applications using
+              technologies such as React, Node.js, Express, and MongoDB, with a
+              strong focus on writing clean, scalable, and maintainable code. I
+              enjoy transforming ideas into fully-developed digital products.
+            </p>
+
+            <p className="">
+              Beyond development, I have strong foundational knowledge in
+              cybersecurity, including secure coding principles, authentication
+              flows, and threat awareness. Security isn’t just an add-on—it’s an
+              essential part of how I build.
+            </p>
+
+            <a
+              href="#"
+              className="text-lime-300 font-semibold underline underline-offset-4 hover:text-lime-400"
+            >
+              MORE ABOUT ME
+            </a>
+
+            {/* Buttons & Icons */}
+            {/* <div className="flex items-center gap-4 mt-6">
+              <button className="bg-lime-300 text-black px-6 py-2 rounded-full font-semibold hover:bg-lime-400 transition">
+                More about me
+              </button>
+
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-gray-700 transition"
+              >
+                <Linkedin className="w-5 h-5 text-lime-300" />
+              </a>
+
+              <a
+                href="#"
+                className="w-10 h-10 rounded-full border border-gray-400 flex items-center justify-center hover:bg-gray-700 transition"
+              >
+                <Github className="w-5 h-5 text-lime-300" />
+              </a>
+            </div> */}
+          </div>
+        </div>
+      </section>
 
       {/* ======================= */}
       {/* <div className="w-full  bg-gray-400 py-4 mt-20">

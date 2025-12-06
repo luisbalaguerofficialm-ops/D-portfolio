@@ -27,7 +27,7 @@ const Navbar = () => {
           >
             Work
           </Link>
-          <Link to="/AboutMe" className="hover:text-cyan-300 transition">
+          <Link to="/ProjectWork" className="hover:text-cyan-300 transition">
             About Me
           </Link>
           <Link
@@ -61,7 +61,7 @@ const Navbar = () => {
             Work
           </a>
           <Link
-            to="/AboutMe"
+            to="/ProjectWork"
             className="w-full text-left py-2 hover:text-cyan-300 transition"
             onClick={toggleMenu}
           >

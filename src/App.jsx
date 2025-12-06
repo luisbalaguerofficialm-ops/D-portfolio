@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Project from "./pages/Project";
+import ProjectWork from "./pages/ProjectWork";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/ProjectWork" element={<ProjectWork />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/ContactMe" element={<ContactMe />} />
           <Route path="/Login" element={<Login />} />
