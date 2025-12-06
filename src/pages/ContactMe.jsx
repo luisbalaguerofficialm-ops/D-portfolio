@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Linkedin, Github } from "lucide-react";
+// import { Linkedin, Github } from "lucide-react";
 import emailjs from "@emailjs/browser"; // ✅ updated import
 import { toast } from "react-toastify";
 
@@ -53,9 +53,9 @@ const ContactMe = () => {
   return (
     <section className="w-full bg-black text-white py-24 px-6 md:px-16">
       <div className="max-w-3xl mx-auto flex flex-col gap-10">
-        <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center text-lime-300">
+        <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-center">
           Have a project in mind? Let’s talk! <br />{" "}
-          <span className="text-xl sm:text-2xl md:text-3xl font-semibold text-center text-blue-600">
+          <span className="text-xl sm:text-2xl md:text-3xl font-semibold text-center">
             "I’m just a message away—connect with me!"
           </span>
         </h4>
@@ -118,7 +118,7 @@ const ContactMe = () => {
           </button>
         </form>
 
-        <div className="flex justify-center gap-4 mt-4">
+        {/* <div className="flex justify-center gap-4 mt-4">
           <a
             href="https://linkedin.com/in/daniel-chekwube-790535361s"
             target="_blank"
@@ -135,7 +135,7 @@ const ContactMe = () => {
           >
             <Github className="w-5 h-5 text-lime-300" />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

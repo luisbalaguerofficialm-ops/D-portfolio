@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="text-2xl hover:text-cyan-400 md:text-4xl font-extrabold  text-blue-500 tracking-tight"
+          className="text-2xl  md:text-4xl font-extrabold tracking-tight"
         >
           DANIEL BANKZ.
         </Link>

@@ -60,8 +60,8 @@ const ProjectWork = () => {
             </p>
 
             {/* Buttons & Icons */}
-            <div className="flex items-center gap-4 mt-6">
-              <button className="group bg-lime-300 text-black px-6 py-2 rounded-full font-semibold hover:bg-lime-600 transition flex items-center">
+            <div className="flex items-center gap-4 mt-2">
+              <button className="group bg-lime-300 text-black px-6 md:w-[272px] w-[272px]  py-2 rounded-full font-semibold hover:bg-lime-600 transition flex items-center">
                 Download Resume
                 {/* Circle image (visible normally, hidden on hover) */}
                 <img
