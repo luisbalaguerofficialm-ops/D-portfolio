@@ -402,10 +402,12 @@ const HeroSection = () => {
         </div>
         <div className="space-y-6 text-left">
           <h3 className="text-2xl md:text-3xl font-bold">
-           WORK NEST<br />Job Seeking Website....
+            WORK NEST
+            <br />
+            Job Seeking Website....
           </h3>
           <p className="text-gray-300 leading-relaxed">
-          How it works for job seekers
+            How it works for job seekers
           </p>
           <div className="mt-6">
             <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
@@ -428,7 +430,7 @@ const HeroSection = () => {
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
-              href=""
+              href=" https://github.com/luisbalaguerofficialm-ops/work_nest_job.git"
               target="_blank"
               className="text-lime-300 flex underline items-center gap-2"
             >
