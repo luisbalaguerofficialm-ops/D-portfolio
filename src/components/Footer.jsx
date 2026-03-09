@@ -127,7 +127,7 @@ const Footer = () => {
               <Instagram className="w-6 h-6 text-lime-300 cursor-pointer hover:opacity-80" />
             </div>
 
-            <p className="text-gray-500 text-sm pt-80">© 2023 Robert Garcia</p>
+            <p className="text-gray-500 text-sm pt-80">© 2026 DANIEL CHEKWUBE</p>
           </div>
 
           {/* RIGHT SECTION — FORM */}

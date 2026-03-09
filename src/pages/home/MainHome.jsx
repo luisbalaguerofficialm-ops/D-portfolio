@@ -23,6 +23,7 @@ import render from "../../assets/render.png";
 import allCountriesImg from "../../assets/allCountriesImg .png";
 import realEstateImg from "../../assets/realEstateImg.png";
 import eCommerceImg from "../../assets/eCommerceImg .png";
+import worknest from "../../assets/worknest13.png";
 
 const HeroSection = () => {
   // useEffect(() => {
@@ -386,6 +387,102 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
+      {/* ================================= */}
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+        <div className="bg-[#111] p-5 rounded-xl text-left shadow-lg border border-gray-800">
+          <span className="inline-block text-medium bg-gray-800 text-gray-200 px-3 py-1 rounded-full mb-4">
+            Conceptual Work
+          </span>
+          <img
+            src={worknest}
+            alt="All Countries Project"
+            className="rounded-lg w-full "
+          />
+        </div>
+        <div className="space-y-6 text-left">
+          <h3 className="text-2xl md:text-3xl font-bold">
+           WORK NEST<br />Job Seeking Website....
+          </h3>
+          <p className="text-gray-300 leading-relaxed">
+          How it works for job seekers
+          </p>
+          <div className="mt-6">
+            <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Tech Stack</span>
+
+              <span className="text-gray-400">React • Node • API</span>
+            </div>
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Role</span>
+              <span className="text-green-500 text-medium">Full-Stack..</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-6 pt-4">
+            <a
+              href="https://worknest-one.vercel.app/"
+              target="_blank"
+              className="text-lime-300 flex underline items-center gap-2"
+            >
+              LIVE DEMO <ArrowUpRight className="w-4 h-4" />
+            </a>
+            <a
+              href=""
+              target="_blank"
+              className="text-lime-300 flex underline items-center gap-2"
+            >
+              SEE ON GITHUB <Github className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Project 2 */}
+      <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
+        <div className="bg-[#111] p-5 rounded-xl shadow-lg border border-gray-800">
+          <img
+            src={realEstateImg}
+            alt="Real Estate Project"
+            className="rounded-lg w-full "
+          />
+        </div>
+        <div className="space-y-6 text-left">
+          <h3 className="text-2xl md:text-3xl font-bold">Real Estate</h3>
+          <p className="text-gray-300 leading-relaxed">
+            Real estate properties project.
+          </p>
+          <div className="mt-6">
+            <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Tech</span>
+              <span className="text-gray-400">React • MongoDB • API</span>
+            </div>
+            <div className="border-t border-gray-700 py-3 flex justify-between">
+              <span className="text-gray-300">Role</span>
+              <span className="text-blue-500 text-medium">Full-Stack..</span>
+            </div>
+          </div>
+          <div className="flex items-center gap-6 pt-4">
+            <a
+              href="https://beta-house-one.vercel.app/"
+              target="_blank"
+              className="text-lime-300 underline flex items-center gap-2"
+            >
+              LIVE DEMO <ArrowUpRight className="w-4 h-4" />
+            </a>
+            <a
+              href="https://github.com/luisbalaguerofficialm-ops/beta-house"
+              target="_blank"
+              className="text-lime-300 underline flex items-center gap-2"
+            >
+              SEE ON GITHUB <Github className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* ========================================= */}
 
       {/* Project 3 */}
       <div className="max-w-6xl mx-auto mt-30 grid md:grid-cols-2 gap-12 items-start">
