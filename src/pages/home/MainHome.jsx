@@ -362,7 +362,7 @@ const HeroSection = () => {
             <h4 className="text-sm text-gray-400 mb-2">PROJECT INFO</h4>
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Tech</span>
-              <span className="text-gray-400">React • MongoDB • API</span>
+              <span className="text-gray-200">React • MongoDB • API</span>
             </div>
             <div className="border-t border-gray-700 py-3 flex justify-between">
               <span className="text-gray-300">Role</span>
@@ -430,7 +430,7 @@ const HeroSection = () => {
               LIVE DEMO <ArrowUpRight className="w-4 h-4" />
             </a>
             <a
-              href=" https://github.com/luisbalaguerofficialm-ops/work_nest_job.git"
+              href="https://github.com/luisbalaguerofficialm-ops/work_nest_job.git"
               target="_blank"
               className="text-lime-300 flex underline items-center gap-2"
             >
